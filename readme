@@ -1,0 +1,5 @@
+Static templates can significantly improve your re-rendering speeds. Rendering traditional templates was an all-or-nothing decision. However, By encapsulating all the logic into methods on the view, this becomes a much more granular decision. Arbitrary sections can be ‘re-rendered’ in response to events.
+
+By keeping a strong separation of concerns between your views and templates, you end up with code that is cleaner, more modular, more readable, more performant, and easier to maintain. Give it a try, you will be surprised by the power and simplicity of this approach.
+
+Learn more about Backbone best practices in our book Backbone.js on Rails.
